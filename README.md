@@ -1,3 +1,4 @@
 # DPMTSE
 
-## Official Pytorch Implementation of DPMTSE
+## Official Pytorch Implementation of DPM-TSE: A DIFFUSION PROBABILISTIC MODEL FOR TARGET SOUND EXTRACTION
+
