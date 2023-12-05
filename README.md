@@ -58,5 +58,4 @@ This repo is inspired by:
 
 We borrow code from following repos:
 
- - `Diffusion Schedulers` are based on 🤗 [Diffusers](https://github.com/huggingface/diffusers)
- - `2D UNet` is based on 🤗 [Diffusers]
+ - `Diffusion Schedulers` and `2D UNet` are based on 🤗 [Diffusers](https://github.com/huggingface/diffusers)
