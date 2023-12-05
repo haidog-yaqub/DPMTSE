@@ -18,7 +18,7 @@ DPM-TSE  (💻WIP)
 🎵 Listen to [examples](https://jhu-lcap.github.io/DPM-TSE/)
 
 ## Todo
-- [x] Update codes and demo
+- [x] Update code and demo
 - [x] Support 🤗 [Diffusers](https://github.com/huggingface/diffusers)
 - [ ] Upload checkpoints
 - [ ] Pipeline tutorial
