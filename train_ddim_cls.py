@@ -132,7 +132,7 @@ if __name__ == '__main__':
     eval_set = TSEDataset(meta_dir='eval.csv', data_dir=args.data_path, subset='val', length=10,
                           use_timbre_feature=args.use_timbre_feature, timbre_path=args.timbre_path,
                           mel_length=1000)
-    eval_loader = DataLoader(eval_set, num_workers=args.num_workers, batch_size=args.batch_size)
+    eval_loader = DataLoader(eval_set, num_workers=args.num_workers, batch_size=args.batch_size, shuffle=False)
     # use these two loaders for benchmarks
 
     # use accelerator for multi-gpu training
