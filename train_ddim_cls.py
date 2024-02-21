@@ -117,7 +117,8 @@ if __name__ == '__main__':
                            use_timbre_feature=args.use_timbre_feature, timbre_path=args.timbre_path,
                            mel_length=args.audio_length*100)
 
-    train_loader = DataLoader(train_set, num_workers=args.num_workers, batch_size=args.batch_size)
+    train_loader = DataLoader(train_set, num_workers=args.num_workers, batch_size=args.batch_size,
+                             shuffle=True)
 
     # val_set = TSEDataset(meta_dir=args.data_path+'meta.csv', data_dir=args.data_path, length=10,
     #                      use_timbre_feature=args.use_timbre_feature, timbre_path=args.timbre_path,
