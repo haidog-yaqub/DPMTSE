@@ -7,10 +7,10 @@ Official Pytorch Implementation of [DPM-TSE: A Diffusion Probabilistic Model for
 <img src="img\dpmtse.jpg" width="300px">
 
 DPM-TSE  (💻WIP)
-- [Todo](## todo)
-- [Examples](## Examples)
-- [References](## references)
-- [Acknowledgement](## acknowledgement)
+- [Todo](#todo)
+- [Examples](#examples)
+- [References](#references)
+- [Acknowledgement](#acknowledgement)
 
 ## Demo
 
