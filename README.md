@@ -40,11 +40,13 @@ python src/tse.py --device 'cuda' --mixture 'example.wav' --target_sound 'Applau
 If you find the code useful for your research, please consider citing:
 
 ```bibtex
-@article{hai2023dpm,
+@inproceedings{hai2024dpm,
   title={DPM-TSE: A Diffusion Probabilistic Model for Target Sound Extraction},
   author={Hai, Jiarui and Wang, Helin and Yang, Dongchao and Thakkar, Karan and Dehak, Najim and Elhilali, Mounya},
-  journal={arXiv preprint arXiv:2310.04567},
-  year={2023}
+  booktitle={ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1196--1200},
+  year={2024},
+  organization={IEEE}
 }
 ```
 
