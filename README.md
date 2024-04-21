@@ -25,7 +25,7 @@ Official Pytorch Implementation of [DPM-TSE: A Diffusion Probabilistic Model for
 
 ## Examples
 - Download checkpoints and dataset from: https://huggingface.co/datasets/Higobeatz/DPM-TSE/tree/main
-- Prepare running environment: requirement.txt
+- Prepare environment: requirement.txt
 ``` shell
 # Training
 python src/train_ddim_cls.py --data-path 'data/fsd2018/' --autoencoder-path 'ckpts/first_stage.pt' --autoencoder-config 'ckpts/vae.yaml' --diffusion-config 'src/config/DiffTSE_cls_v_b_1000.yaml'
@@ -72,3 +72,4 @@ This repo is inspired by:
 We borrow code from following repos:
 
  - `Diffusion Schedulers` and `2D UNet` are based on 🤗 [Diffusers](https://github.com/huggingface/diffusers)
+ - 16k HiFi-GAN vocoder and AutoencoderKL is borrowed from [AudioLDM](https://github.com/haoheliu/AudioLDM/tree/main)
