@@ -6,7 +6,7 @@ Official Pytorch Implementation of [DPM-TSE: A Diffusion Probabilistic Model for
 
 <img src="img\dpmtse.jpg" width="300px">
 
-DPM-TSE  (💻WIP)
+
 - [Todo](#todo)
 - [Examples](#examples)
 - [References](#references)
@@ -26,10 +26,11 @@ DPM-TSE  (💻WIP)
 ## Examples
 - Download checkpoints and dataset from: https://huggingface.co/datasets/Higobeatz/DPM-TSE/tree/main
 - Prepare running environment: requirement.txt
-``` 
+``` shell
 # Training
 python src/train_ddim_cls.py --data-path 'data/fsd2018/' --autoencoder-path 'ckpts/first_stage.pt' --autoencoder-config 'ckpts/vae.yaml' --diffusion-config 'src/config/DiffTSE_cls_v_b_1000.yaml'
-
+```
+``` shell
 # Inference
 python src/tse.py --device 'cuda' --mixture 'example.wav' --target_sound 'Applause' --autoencoder-path 'ckpts/first_stage.pt' --autoencoder-config 'ckpts/vae.yaml' --diffusion-config 'src/config/DiffTSE_cls_v_b_1000.yaml' --diffusion-ckpt 'ckpts/base_v_1000.pt'
 ```
