@@ -12,7 +12,7 @@ Paper link: [DPM-TSE](https://arxiv.org/abs/2310.04567)
 
 ## Content
 - [Todo](#todo)
-- [Examples](#examples)
+- [Usage](#usage)
 - [References](#references)
 - [Acknowledgement](#acknowledgement)
 
@@ -23,7 +23,7 @@ Paper link: [DPM-TSE](https://arxiv.org/abs/2310.04567)
 - [x] Pipeline tutorial
 - [ ] Merge to [Your-Stable-Audio](https://github.com/haidog-yaqub/Your-Stable-Audio)
 
-## Examples
+## Usage
 - Download checkpoints and dataset from [this 🤗 link](https://huggingface.co/datasets/Higobeatz/DPM-TSE/tree/main)
 - Prepare environment: [requirement.txt](requirements.txt)
 ``` shell
