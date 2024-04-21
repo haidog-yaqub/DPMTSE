@@ -2,8 +2,6 @@
 
 Official Pytorch Implementation of DPM-TSE
 
---------------------
-
 <img src="img\cover.png">
 
 Paper link: [DPM-TSE: A Diffusion Probabilistic Model for Target Sound Extraction](https://arxiv.org/abs/2310.04567)
