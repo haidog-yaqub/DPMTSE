@@ -6,15 +6,14 @@ Official Pytorch Implementation of [DPM-TSE: A Diffusion Probabilistic Model for
 
 <img src="img\cover.png">
 
+## Demo
+🎵 Listen to [examples](https://jhu-lcap.github.io/DPM-TSE/)
 
+## Content
 - [Todo](#todo)
 - [Examples](#examples)
 - [References](#references)
 - [Acknowledgement](#acknowledgement)
-
-## Demo
-
-🎵 Listen to [examples](https://jhu-lcap.github.io/DPM-TSE/)
 
 ## Todo
 - [x] Update code and demo
