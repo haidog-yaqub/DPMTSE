@@ -26,8 +26,8 @@ Paper link: [DPM-TSE: A Diffusion Probabilistic Model for Target Sound Extractio
 - [ ] Merge to [Your-Stable-Audio](https://github.com/haidog-yaqub/Your-Stable-Audio)
 
 ## Examples
-- Download checkpoints and dataset from: https://huggingface.co/datasets/Higobeatz/DPM-TSE/tree/main
-- Prepare environment: requirement.txt
+- Download checkpoints and dataset from [this link](https://huggingface.co/datasets/Higobeatz/DPM-TSE/tree/main)
+- Prepare environment: [requirement.txt]('requirements.txt')
 ``` shell
 # Training
 python src/train_ddim_cls.py --data-path 'data/fsd2018/' --autoencoder-path 'ckpts/first_stage.pt' --autoencoder-config 'ckpts/vae.yaml' --diffusion-config 'src/config/DiffTSE_cls_v_b_1000.yaml'
