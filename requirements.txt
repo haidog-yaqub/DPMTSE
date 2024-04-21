@@ -1,0 +1,14 @@
+accelerate==0.21.0
+diffusers==0.18.2
+einops
+flash_attn
+librosa
+matplotlib
+numpy
+pandas
+PyYAML
+scipy
+soundfile
+torch
+torchaudio
+tqdm
