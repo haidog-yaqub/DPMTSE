@@ -20,10 +20,23 @@ DPM-TSE  (💻WIP)
 ## Todo
 - [x] Update code and demo
 - [x] Support 🤗 [Diffusers](https://github.com/huggingface/diffusers)
-- [ ] Upload checkpoints
-- [ ] Pipeline tutorial
+- [x] Upload checkpoints
+- [x] Pipeline tutorial
 - [ ] Merge to [Your-Stable-Audio](https://github.com/haidog-yaqub/Your-Stable-Audio)
+
+## Examples
+- Download checkpoints and dataset from: https://huggingface.co/datasets/Higobeatz/DPM-TSE/tree/main
+- Prepare running environment: requirement.txt
+``` 
+# Training
+python src/train_ddim_cls.py --data-path 'data/fsd2018/' --autoencoder-path 'ckpts/first_stage.pt' --autoencoder-config 'ckpts/vae.yaml' --diffusion-config 'src/config/DiffTSE_cls_v_b_1000.yaml'
+
+# Inference
+python src/tse.py --device 'cuda' --mixture 'example.wav' --target_sound 'Applause' --autoencoder-path 'ckpts/first_stage.pt' --autoencoder-config 'ckpts/vae.yaml' --diffusion-config 'src/config/DiffTSE_cls_v_b_1000.yaml' --diffusion-ckpt 'ckpts/base_v_1000.pt'
+```
+
 ## References
+
 If you find the code useful for your research, please consider citing:
 
 ```bibtex
