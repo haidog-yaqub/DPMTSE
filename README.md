@@ -76,4 +76,4 @@ This repo is inspired by:
 We borrow code from following repos:
 
  - `Diffusion Schedulers` and `2D UNet` are based on 🤗 [Diffusers](https://github.com/huggingface/diffusers)
- - 16k HiFi-GAN vocoder and AutoencoderKL is borrowed from [AudioLDM](https://github.com/haoheliu/AudioLDM/tree/main)
+ - `16k HiFi-GAN vocoder` is borrowed from [AudioLDM](https://github.com/haoheliu/AudioLDM/tree/main)
