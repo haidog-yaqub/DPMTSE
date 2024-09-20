@@ -1,4 +1,4 @@
-<img src="img\cover.png">
+<!--<img src="img\cover.png">-->
 
 # DPM-TSE
 
