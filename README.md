@@ -4,24 +4,16 @@
 
 Official Pytorch Implementation of DPM-TSE: A Diffusion Probabilistic Model for Target Sound Extraction
 
+🔥 Updates: [SoloAudio](https://wanghelin1997.github.io/SoloAudio-Demo/) is now available! This advanced diffusion-transformer-based model extracts target sounds from free-text input.
+
 Paper link: [DPM-TSE](https://arxiv.org/abs/2310.04567)
 
-## Demo
-
-🎵 Listen to [examples](https://jhu-lcap.github.io/DPM-TSE/)
+Listen to examples on [Homepage](https://jhu-lcap.github.io/DPM-TSE/)
 
 ## Content
-- [Todo](#todo)
 - [Usage](#usage)
 - [References](#references)
 - [Acknowledgement](#acknowledgement)
-
-## Todo
-- [x] Update code and demo
-- [x] Support 🤗 [Diffusers](https://github.com/huggingface/diffusers)
-- [x] Upload checkpoints
-- [x] Pipeline tutorial
-- [ ] Merge to [Your-Stable-Audio](https://github.com/haidog-yaqub/Your-Stable-Audio)
 
 ## Usage
 - Download checkpoints and dataset from [this 🤗 link](https://huggingface.co/datasets/Higobeatz/DPM-TSE/tree/main)
@@ -47,25 +39,6 @@ If you find the code useful for your research, please consider citing:
   pages={1196--1200},
   year={2024},
   organization={IEEE}
-}
-```
-
-This repo is inspired by:
-
-```bibtex
-@article{popov2021diffusion,
-  title={Diffusion-based voice conversion with fast maximum likelihood sampling scheme},
-  author={Popov, Vadim and Vovk, Ivan and Gogoryan, Vladimir and Sadekova, Tasnima and Kudinov, Mikhail and Wei, Jiansheng},
-  journal={arXiv preprint arXiv:2109.13821},
-  year={2021}
-}
-```
-```bibtex
-@article{lin2023common,
-  title={Common Diffusion Noise Schedules and Sample Steps are Flawed},
-  author={Lin, Shanchuan and Liu, Bingchen and Li, Jiashi and Yang, Xiao},
-  journal={arXiv preprint arXiv:2305.08891},
-  year={2023}
 }
 ```
 
