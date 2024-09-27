@@ -4,7 +4,7 @@
 
 Official Pytorch Implementation of [DPM-TSE](https://arxiv.org/abs/2310.04567): A Diffusion Probabilistic Model for Target Sound Extraction
 
-Listen to examples on [Homepage](https://jhu-lcap.github.io/DPM-TSE/)
+🎧 Listen to examples on the [Demopage](https://jhu-lcap.github.io/DPM-TSE/)
 
 🔥 Updates: [SoloAudio](https://wanghelin1997.github.io/SoloAudio-Demo/) is now available! This advanced diffusion-transformer-based model extracts target sounds from free-text input.
 
